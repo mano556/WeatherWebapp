@@ -54,24 +54,23 @@ button:hover {
 
 .result h1.temp {
     font-size: 36px;
-    color: #ff5733; 
+    color: #ff5733; /* Orange color */
 }
 
 .result h1.humidity {
     font-size: 18px;
-    color: #ffbd33; 
+    color: #ffbd33; /* Yellow color */
 }
 
 .result h1.pressure {
     font-size: 18px;
-    color: #33ff57; 
+    color: #33ff57; /* Green color */
 }
 
 .result h1.windspeed {
     font-size: 18px;
-    color: #ff33f5; 
+    color: #ff33f5; /* Blue color */
 }
-
 .result {
     font-size: large;
     justify-content: center;
@@ -81,13 +80,14 @@ button:hover {
     box-shadow: 0 0 20px #9933ff;
     background-color: #9933ff;
     border-radius: 50px;
-    margin: 50px auto; 
+    margin: 50px auto; /* Centers the div horizontally */
     width: 500px;
 }
-
-@media (max-width: 600px) {
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
     .result {
-        width: 90%; 
-        padding: 50px; 
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
     }
 }
