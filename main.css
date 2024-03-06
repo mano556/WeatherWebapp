@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.city {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.result h1 {
+    margin: 10px 0;
+}
+
+.result h1.cityname {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.result h1.temp {
+    font-size: 36px;
+    color: #ff5733; /* Orange color */
+}
+
+.result h1.humidity {
+    font-size: 18px;
+    color: #ffbd33; /* Yellow color */
+}
+
+.result h1.pressure {
+    font-size: 18px;
+    color: #33ff57; /* Green color */
+}
+
+.result h1.windspeed {
+    font-size: 18px;
+    color: #ff33f5; /* Blue color */
+}
+
+.result {
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 20px #9933ff;
+    background-color: #9933ff;
+    border-radius: 50px;
+    margin: 50px auto; /* Centers the div horizontally */
+    width: 500px;
+}
+
